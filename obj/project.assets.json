@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp.csproj",
+      "msbuildProject": "Assembly-CSharp.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Assembly-CSharp >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/mertatestopuz/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/Okul/Assembly-CSharp.csproj",
-      "projectName": "Assembly-CSharp",
-      "projectPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/Okul/Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/Assembly-CSharp-Editor.csproj",
+      "projectName": "Assembly-CSharp-Editor",
+      "projectPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/Assembly-CSharp-Editor.csproj",
       "packagesPath": "/Users/mertatestopuz/.nuget/packages/",
-      "outputPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/Okul/obj/",
+      "outputPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mertatestopuz/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/Assembly-CSharp.csproj": {
+              "projectPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/Assembly-CSharp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
