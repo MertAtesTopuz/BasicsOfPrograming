@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/Okul/Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/Okul/Assembly-CSharp.csproj",
+      "projectPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/Assembly-CSharp.csproj",
       "packagesPath": "/Users/mertatestopuz/.nuget/packages/",
-      "outputPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/Okul/obj/",
+      "outputPath": "/Users/mertatestopuz/Desktop/klasörler klasörü/Projeler/Unity/BasicsOfPrograming/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mertatestopuz/.nuget/NuGet/NuGet.Config"

@@ -8,6 +8,6 @@ public class hareket : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(transform.position.x + hız * Time.fixedDeltaTime, transform.position.y, transform.position.z );
+        transform.position = new Vector3(transform.position.x , transform.position.y, transform.position.z+ hız * Time.fixedDeltaTime );
     }
 }
